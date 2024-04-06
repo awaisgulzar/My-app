@@ -1,3 +1,10 @@
+"use client";
+import { useRouter } from "next/navigation";
 export default function About() {
-  return <main></main>;
+  let router = useRouter();
+  return (
+    <main>
+      <button onClick={() => router.back()}>Back</button>
+    </main>
+  );
 }
