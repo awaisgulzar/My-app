@@ -17,6 +17,9 @@ function Header() {
         <Link className="hover:bg-slate-600 hover:rounded " href={""}>
           Services
         </Link>
+        <Link className="hover:bg-slate-600 hover:rounded " href={""}>
+          Gellry
+        </Link>
       </nav>
     </main>
   );
